@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on any type of work whether front end, back end, or full stack
 - 📫 How to reach me justinchallis12@gmail.com
 - 😄 Pronouns: Him/He
-- ⚡ Fun fact: I only started to code when I was 36 years old
+- ⚡ Fun fact: I'm also a musician
 
 <!---
 JustinChallis/JustinChallis is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
