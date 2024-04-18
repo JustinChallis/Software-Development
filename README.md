@@ -6,9 +6,9 @@
 
 - 🔭 I’m currently working on **My Own Card Game (CCG)**
 
-- 🌱 I’m currently learning **All I can on full stack development**
+- 🌱 I’m currently learning **All I can on Web Development**
 
-- 🤝 I’m looking for help with **Anything full stack**
+- 🤝 I’m looking for help with **Anything Web Development**
 
 - 💬 Ask me about **Music or anything related to card games or coding them**
 
