@@ -14,7 +14,7 @@
 
 - 📫 How to reach me **justinchallis12@gmail.com**
 
-- 📄 Know about my experiences [I'm currently attending Mohawk College for Software Development and only have 3 courses left](I'm currently attending Mohawk College for Software Development and only have 3 courses left)
+- 📄 Know about my experiences I'm currently attending Mohawk College for Software Development and only have 3 courses left
 
 - ⚡ Fun fact **I'm also a musician who plays guitar, drums and sings**
 
