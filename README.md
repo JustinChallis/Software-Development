@@ -14,13 +14,13 @@
 
 - 📫 How to reach me **justinchallis12@gmail.com**
 
-- 📄 Know about my experiences [I'm currently attending Mohawk College for Software Development and only have 3 courses left](I'm currently attending Mohawk College for Software Development and only have 3 courses left)
+- 📄 Know about my experiences I'm currently attending Mohawk College for Software Development and only have 3 courses left
 
 - ⚡ Fun fact **I'm also a musician who plays guitar, drums and sings**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/justin challis" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="justin challis" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/justin-challis-03a7442b8/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="justin challis" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
