@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Justin Challis</h1>
 <h3 align="center">I'm a passionate developer looking to dive right into full time work</h3>
 <h3 align="center">Link to my online website hosted by MS Azure </h3>
-<a align="center" href="https://justinchallis.z13.web.core.windows.net/" > Link to my landing page </a>
+<a href="https://justinchallis.z13.web.core.windows.net/" > Link to my landing page </a>
 
 - 🔭 I’m currently working on **My Own Card Game (CCG)**
 
