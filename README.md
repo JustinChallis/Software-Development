@@ -1,16 +1,17 @@
 <h1 align="center">Hi 👋, I'm Justin Challis</h1>
 <h3 align="center">I'm a passionate developer looking to dive right into full time work</h3>
+<h3 align="left">Link to my online website hosted by MS Azure </h3>
+<a href="https://justinchallis.z13.web.core.windows.net/" > Link to my landing page </a>
+
 
 
 - 🔭 I’m currently working on **My Own Card Game (CCG)**
 
-- 🌱 I’m currently learning **All I can on Web Development**
+- 🌱 I’m currently learning **All I can about Web Development**
 
-- 🤝 I’m looking for help with **Anything Web Development**
+- 🤝 I’m looking for help with **Anything Related to Web Development**
 
-- 💬 Ask me about **Music or anything related to card games or coding them**
-
-- 📫 How to reach me **justinchallis12@gmail.com**
+- 💬 Ask me about **Music or anything related to card games**
 
 - ⚡ Fun fact **I'm also a musician who plays guitar, drums and sings**
 
