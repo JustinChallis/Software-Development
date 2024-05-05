@@ -29,10 +29,7 @@ navLinksLi.forEach(li => li.addEventListener('click', ()=> {
 /* Typed JS */
 var options = {
     strings: [
-        'Welcome to my website!', 
-        'Take your time to explore the site',
-        'Demonstrating some of my work with',
-        'HTML/CSS and Javascript',
+        'Welcome to my online resume', 
         'Enjoy!!!'
     ],
     typeSpeed: 35,
