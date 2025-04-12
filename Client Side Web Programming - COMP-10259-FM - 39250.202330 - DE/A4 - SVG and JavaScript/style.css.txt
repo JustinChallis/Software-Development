@@ -1,0 +1,20 @@
+h1{
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+
+
+}
+
+h2{
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+
+
+}
+
+button{
+    background-color: aquamarine;
+    box-shadow: 0 5px 0 blueviolet;
+
+
+}

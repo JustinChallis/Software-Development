@@ -1,0 +1,77 @@
+function group_1_choice_1(){
+   
+   let num = document.getElementById("q1_input").value;
+    
+   if (num ==0) 
+   document.getElementById("q1_output").innerHTML="In Range";
+   else if (num >= 13) 
+   document.getElementById("q1_output").innerHTML="In Range";
+
+   else if (num <= 17)
+   document.getElementById("q1_output").innerHTML="In Range";
+
+   else if (num >= 18)
+   document.getElementById("q1_output").innerHTML="Out of Range";
+
+   else
+   document.getElementById("q1_output").innerHTML="Not a Number";
+   
+}
+
+function group_1_choice_3(){
+   
+   let num2 = document.getElementById("q2_input").value;
+    
+   if (num2 > 0) 
+   document.getElementById("q2_output").innerHTML="The perimeter of the square is: "+" "+ num2 * 4 + " " + "The area of the square is: " +" "+ num2 * num2;
+   else
+   document.getElementById("q2_output").innerHTML="Can't Calculate"
+   
+}
+
+function group_2_choice_1(){
+   
+   let text1 = document.getElementById("q3_input").value;
+
+   if (text1 === "a") 
+   document.getElementById("q3_output").innerHTML="A Vowel!";
+   else if (text1 === "e") 
+   document.getElementById("q3_output").innerHTML="A Vowel!";
+   else if (text1 === "i") 
+   document.getElementById("q3_output").innerHTML="A Vowel!";
+   else if (text1 === "o") 
+   document.getElementById("q3_output").innerHTML="A Vowel!";
+   else if (text1 === "u") 
+   document.getElementById("q3_output").innerHTML="A Vowel!"; 
+   else if (text1 === "y") 
+   document.getElementById("q3_output").innerHTML="Sometimes!";
+   else 
+   document.getElementById("q3_output").innerHTML="Not a Vowel!";
+   
+}
+
+function group_2_choice_2(){
+   
+   let num4 = document.getElementById("q4_input").value;
+
+   
+   num4 = Math.abs(num4);
+
+   document.getElementById("q4_output").innerHTML="The absolute value is: "+ num4;
+       
+   
+}
+
+function group_3_choice_1(){
+   
+   let num5 = document.getElementById("q5_input").value;
+
+   if (num5.length >= 10 && num5.length <= 20) 
+
+   document.getElementById("q5_output").innerHTML="Valid Number";
+   
+   else
+   
+   document.getElementById("q5_output").innerHTML=0;
+   
+}

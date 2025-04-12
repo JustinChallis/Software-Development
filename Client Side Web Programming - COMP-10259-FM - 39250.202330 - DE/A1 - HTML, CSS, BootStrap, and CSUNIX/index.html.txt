@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<!-- Sample HTML Template for COMP 10259 -->
+
+<html lang="en">
+
+<head>
+    <title>Justin's Assignment1</title>
+    <link rel= "stylesheet" href="assign1.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+
+        <div class="headercontainer">
+            
+    
+            <div class="headerinfo">
+                <ul>
+                    <li><p>Justin Challis 001137680</p></li>
+                </ul>
+            </div>
+    
+                
+        </div>
+    </header>
+    
+    <div class= "main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Justin</h2>
+
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="page2.html">PAGE2</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <!--
+            <div class="search">
+                <input class="srch" type="search" name=""placeholder="Type to text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+            -->
+            </div>
+
+            <div class="content">
+                <h1>Client Side<br><span>Web Development</span> <br>Course</h1>
+                <p class ="par"></p>Hello! My name is Justin Challis. When COVID first happened
+            I was laid off from selling cars because the car market was not the same post-COVID as it was 
+            before COVID. People were able to come into the dealership and ask questions about cars and I was 
+            able to explain to them, based on our conversation, what car was a good fit. When COVID happened,
+            people started to do more shopping online and given the fact that they could no longer enter into a dealership
+            without the hastle of wearing a mask and disinfecting, people were turned away from in-person shopping. It was 
+            during this time that I realized the car industry no longer had a place for me. I decided to attend Mohawk College for 
+            software support as this is a means to exlpore a new avenue and to really broaden my horizons long term. I had also met 
+            my wife during that time and knew that I would need something more concrete as opposed to commision based selling.</p>
+
+                <!--
+                <button class=" cn"><a href="#">JOIN US</a></button>
+
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btn"><a href= "#">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="#">Sign up here</a></p>
+                    <p class="liw">Log in with</p>
+                </div>
+            -->
+            </div>
+
+
+        </div>
+    </div>  
+
+    <footer>
+
+        <div class="footercontainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+    
+            <div class="footerNav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Our Team</a></li>
+                </ul>
+            </div>
+    
+            <div class="footerBottom">
+                <p>Copyright © 2023; Designed by <span class="designer">Justin Challis Mohawk College</p>
+            </div>
+    
+        </div>
+    </footer>
+    
+    
+</body>
+
+</html>

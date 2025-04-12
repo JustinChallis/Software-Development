@@ -1,0 +1,9 @@
+.input{
+    color: blue;
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+
+}
+
