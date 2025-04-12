@@ -1,0 +1,92 @@
+<?php
+
+// Sanitize and retrieve GET parameters
+$shopId = isset($_GET['shop']) ? (int) $_GET['shop'] : 0;
+$itemId = isset($_GET['id']) ? (int) $_GET['id'] : 0;
+$gold = isset($_GET['gold']) ? (int) $_GET['gold'] : 0;
+
+// Define the file path for shop inventory JSON
+$shopFile = "shop{$shopId}.json"; // Assuming shop JSON files are named shop1.json, shop2.json, etc.
+
+// Check if the shop file exists
+if (!file_exists($shopFile)) {
+    echo json_encode([
+        'success' => false,
+        'message' => 'Shop not found.',
+        'gold' => $gold,
+        'item' => null,
+        'debug' => 'Shop file not found.'
+    ]);
+    exit;
+}
+
+// Load the shop inventory
+$shopInventory = json_decode(file_get_contents($shopFile), true);
+
+// Find the item in the shop inventory
+$itemIndex = null;
+foreach ($shopInventory as $index => $item) {
+    if ($item['id'] === $itemId) {
+        $itemIndex = $index;
+        break;
+    }
+}
+
+// Check if the item exists in the inventory
+if ($itemIndex === null) {
+    echo json_encode([
+        'success' => false,
+        'message' => 'Item not found in this shop.',
+        'gold' => $gold,
+        'item' => null,
+        'debug' => 'Item ID not found in the shop inventory.'
+    ]);
+    exit;
+}
+
+// Get the item details
+$item = $shopInventory[$itemIndex];
+
+// Check if the player has enough gold to buy the item
+if ($gold < $item['price']) {
+    echo json_encode([
+        'success' => false,
+        'message' => 'You do not have enough gold to buy this item.',
+        'gold' => $gold,
+        'item' => null,
+        'debug' => 'Player does not have enough gold.'
+    ]);
+    exit;
+}
+
+// Proceed with the purchase: Deduct gold and decrease item quantity
+$newGold = $gold - $item['price'];
+$item['quantity']--;
+
+if ($item['quantity'] == 0) {
+    // If quantity reaches zero, remove the item from the inventory
+    unset($shopInventory[$itemIndex]);
+    // Reindex the array after removal
+    $shopInventory = array_values($shopInventory);
+}
+
+// Save the updated inventory back to the shop's JSON file
+file_put_contents($shopFile, json_encode($shopInventory, JSON_PRETTY_PRINT));
+
+// Prepare the response
+$response = [
+    'success' => true,
+    'message' => "You have successfully bought {$item['name']}.",
+    'gold' => $newGold,
+    'item' => [
+        'id' => $item['id'],
+        'name' => $item['name'],
+        'description' => $item['description'],
+    ],
+    'debug' => 'Item purchased successfully.'
+];
+
+// Output the response as a JSON string
+echo json_encode($response);
+
+?>
